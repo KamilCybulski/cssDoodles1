@@ -7,7 +7,7 @@ footer {
         cursor: pointer;
         color: #fff;
         &:hover {
-            color: color("materialize-red", "lighten-2");
+            transform: scale(1.1);
         }
     }
     }

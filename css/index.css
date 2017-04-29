@@ -6708,7 +6708,7 @@ footer {
     cursor: pointer;
     color: #fff; }
     footer a:hover {
-      color: #ee6e73; }
+      transform: scale(1.1); }
 
 .iconBar .col {
   display: flex;
