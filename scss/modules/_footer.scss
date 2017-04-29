@@ -1,0 +1,20 @@
+footer {
+    @include flex(row wrap, center, center);
+    background-color: $primary-color;
+    margin-top: 40px;
+    height: 250px;
+    a {
+        cursor: pointer;
+        color: #fff;
+        &:hover {
+            color: color("materialize-red", "lighten-2");
+        }
+    }
+    }
+    .iconBar {
+        .col {
+            @include flex(row nowrap, center, center);
+            margin-top: 15px;
+        }
+    }
+
