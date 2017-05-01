@@ -16,20 +16,22 @@
         <script src="js/index.js"></script>
 
     </head>
-    <body>
+    <body itemscope itemtype="http://schema.org/Organization">
       <!-- NAVBAR --> 
         <div class="navbar-fixed">
             <nav>
                 <div class="nav-wrapper"> 
-                    <a href="#!" class="brand-logo">Loremissimus</a>
+                    <a href="#!" class="brand-logo">
+                        <span itemprop="name">Loremissimus</span>
+                    </a>
                     <a href="#" data-activates="mobile-demo"class="button-collapse">
                     <i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Mission</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#mission">Mission</a></li>
                         <li><a href="#">Features</a></li>
-                        <li><a href="#">Why Us</a></li>
+                        <li><a href="#whyUs">Why Us</a></li>
                         <li><a href="#">Download</a></li>
                         <li><a href="#">Documentation</a></li>
 
@@ -39,10 +41,10 @@
         </div>
         <ul class="side-nav" id="mobile-demo">
             <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Mission</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#mission">Mission</a></li>
                 <li><a href="#">Features</a></li>
-                <li><a href="#">Why Us</a></li>
+                <li><a href="#whyUs">Why Us</a></li>
                 <li><a href="#">Download</a></li>
                 <li><a href="#">Documentation</a></li>
         </ul>
@@ -77,9 +79,9 @@
       <main>
 
         <!-- What we offer section -->
-        <section class="contentSection container  center-align">
+        <section class="contentSection container center-align" id="mission">
             <h2>What we offer</h2>
-            <p class="subtitle">
+            <p class="subtitle" itemprop="description">
                 We offer the top quality creative lorem ipsum lines. No one will provide you with more creative, innovative and super awesome lorem ipsum!
             </p>
 
@@ -152,7 +154,7 @@
         </section>
 
         <!-- Love us section -->
-        <section class="contentSection container center-align">
+        <section class="contentSection container center-align" id="about">
                 <h2>Why you'll love us</h2>
                 <p class="subtitle">
                     We are a bunch of creative hipster baristas that will prepare awesome lorem ipsum for you
@@ -172,7 +174,7 @@
                 <div class="col s12 m5">
                     <img class="responsive-img" src="images/coffee1.jpg" alt="coffee 1">
                 </div>
-                <div class="col s12 m7 left-align flow-text">
+                <div class="col s12 m7 left-align">
                     Anim labore enim laborum tempor labore ipsum ad do in. Pariatur qui Lorem esse voluptate exercitation adipisicing sint eu. Tempor ea ea do aliquip cupidatat nisi commodo. Aliquip culpa non Lorem non nulla laborum exercitation officia tempor anim. Anim commodo adipisicing et id laborum amet culpa elit ad ullamco ex. Amet enim tempor eu ipsum elit duis veniam sunt excepteur labore occaecat laboris ut. Tempor eu exercitation commodo amet nostrud fugiat id veniam. Non nisi elit officia exercitation labore Lorem deserunt sit excepteur duis exercitation.
                 </div>
             </div>
@@ -183,7 +185,7 @@
                 <div class="col s12 m5">
                     <img class="responsive-img" src="images/coffee2.jpg" alt="coffee 2">
                 </div>
-                <div class="col s12 m7 left-align flow-text">
+                <div class="col s12 m7 left-align">
                     Anim labore enim laborum tempor labore ipsum ad do in. Pariatur qui Lorem esse voluptate exercitation adipisicing sint eu. Exercitation ea est consectetur veniam tempor ipsum nisi. Aute aute elit Lorem elit officia minim deserunt velit qui irure duis cupidatat. Ut sint dolor et ex pariatur cupidatat cupidatat cupidatat. Non occaecat magna tempor exercitation veniam in labore in exercitation officia cupidatat velit. Sint ad minim incididunt eiusmod magna tempor irure amet. Deserunt Lorem ipsum minim cillum laborum laborum non. Ea nostrud quis nisi ex dolore ipsum quis magna. Eiusmod in labore in ipsum.
                 </div>
             </div>
@@ -194,7 +196,7 @@
                 <div class="col s12 m5">
                     <img class="responsive-img" src="images/coffee3.jpg" alt="coffee 3">
                 </div>
-                <div class="col s12 m7 left-align flow-text">
+                <div class="col s12 m7 left-align">
                     Anim labore enim laborum tempor labore ipsum ad do in. Pariatur qui Lorem esse voluptate exercitation adipisicing sint eu. Tempor proident incididunt voluptate ipsum esse. Nisi pariatur ullamco proident cupidatat cillum dolore. Commodo minim sit elit cupidatat magna. Laboris Lorem exercitation non cillum nisi ex nostrud officia ullamco. Veniam sit duis pariatur consectetur enim cillum proident id. Minim commodo eu eiusmod labore aliqua excepteur reprehenderit sit sit ut.
                 </div>
             </div>
@@ -205,7 +207,7 @@
                 <div class="col s12 m5">
                     <img class="responsive-img" src="images/coffee4.jpg" alt="coffee 4">
                 </div>
-                <div class="col s12 m7 left-align flow-text">
+                <div class="col s12 m7 left-align">
                     Anim labore enim laborum tempor labore ipsum ad do in. Pariatur qui Lorem esse voluptate exercitation adipisicing sint eu.Nostrud aliquip sit est incididunt sint minim elit nulla nulla occaecat. Velit elit est adipisicing mollit laborum. Sit sint magna do fugiat. Est ipsum laborum irure sit aliquip deserunt irure sunt. Exercitation proident occaecat culpa culpa quis reprehenderit non ea minim. Sunt ut adipisicing mollit minim sint id laboris nulla ex deserunt incididunt nulla culpa sunt. Officia cupidatat ea nisi laboris aliquip pariatur. Proident cupidatat fugiat in in id amet ipsum ex exercitation.
                 </div>
             </div>
@@ -226,7 +228,7 @@
         </section>
 
         <!-- clients section-->
-        <section class="contentSection container">
+        <section class="contentSection container" id="whyUs">
             <h2 class="center-align">What our clients say</h2>
             <p class="subtitle center-align">
                 Laborum excepteur proident excepteur consequat dolore laboris est dolore et tempor labore laboris.
